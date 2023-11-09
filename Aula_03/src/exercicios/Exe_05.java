@@ -10,10 +10,12 @@ public class Exe_05 {
 		
 		int idProduto, quantidade, precoFinal;
 		
-		System.out.println("Insira o produto : ");
+		System.out.println("1 - Cachorro Quente \n2 - X-Salada \n3 - X-Bacon \n4 - Bauru \n5 - Refrigerante \n6 - Suco de laranja");
+		
+		System.out.print("\nCódigo do produto : ");
 		
 		idProduto = leia.nextInt();
-		System.out.println("Insira a quantidade : ");
+		System.out.print("Insira a quantidade : ");
 		quantidade = leia.nextInt();
 		
 		switch(idProduto) {

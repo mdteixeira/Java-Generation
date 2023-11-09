@@ -14,6 +14,8 @@ public class Exe_06 {
 		System.out.println("Nome do Colaborador: ");
 		nome = leia.nextLine();
 		
+		System.out.println("1 - Gerente \n2 - Vendedor \n3 - Supervisor \n4 - Motorista \n5 - Estoquista \n6 - Técnico de TI");
+		
 		System.out.println("Cargo: ");
 		idCargo = leia.nextInt();
 
