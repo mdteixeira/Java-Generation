@@ -8,8 +8,7 @@ public class Exe_05 {
 
 	public static void main(String[] args) {
 		
-		int idProduto, quantidade, precoProduto, precoFinal;
-		String nomeProduto;
+		int idProduto, quantidade, precoFinal;
 		
 		System.out.println("Insira o produto : ");
 		
@@ -49,7 +48,7 @@ public class Exe_05 {
 			
 			
 		}
-		System.out.printf("Valor total: R$%d,00", precoFinal);
+		System.out.printf("Valor total: R$ %d,00", precoFinal);
 		
 	}
 
