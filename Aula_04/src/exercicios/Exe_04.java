@@ -58,8 +58,10 @@ public class Exe_04 {
 				break;
 			case 3:
 				mobile++;
+				break;
 			case 4:
 				fullstack++;
+				break;
 			default:
 				System.out.println("Área inserida inválida.");
 			}
