@@ -23,7 +23,7 @@ public class Exe_06 {
 
 		media = soma / contador;
 		
-		System.out.println("A média de todos os multiplos de 3 é : " + media);
+		System.out.println("A média de todos os múltiplos de 3 é : " + media);
 	}
 
 }
