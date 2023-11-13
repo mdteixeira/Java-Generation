@@ -19,7 +19,7 @@ public class Matrizes {
 		}
 
 		System.out.println("---------------------------");
-		
+
 		Double[][] matrizDouble = new Double[3][3];
 
 		for (int i = 0; i < matrizDouble.length; i++) {
@@ -42,20 +42,22 @@ public class Matrizes {
 		System.out.println("Matriz Irregular : \n");
 
 		Double[][] matrizIrregular = new Double[2][3];
-		
+
 		for (int i = 0; i < matrizIrregular.length; i++) {
 			for (int j = 0; j < matrizIrregular[i].length; j++) {
 				System.out.print("Matriz[" + i + "][" + j + "] = ");
 				matrizIrregular[i][j] = sc.nextDouble();
 			}
+			System.out.println("---------------------------");
 		}
 		for (int i = 0; i < matrizIrregular.length; i++) {
 			for (int j = 0; j < matrizIrregular[i].length; j++) {
 				System.out.println("Matriz[" + i + "][" + j + "] = " + matrizIrregular[i][j]);
 			}
 		}
-		
-		for(Double[] vetor : matrizIrregular) {
+		System.out.println("---------------------------");
+		// forEach em matrizes
+		for (Double[] vetor : matrizIrregular) {
 			for (Double elemento : vetor) {
 				System.out.println(elemento);
 			}
