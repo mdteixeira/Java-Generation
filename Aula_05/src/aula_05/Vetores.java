@@ -1,5 +1,6 @@
 package aula_05;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Vetores {
@@ -10,7 +11,7 @@ public class Vetores {
 
 		String[] pessoas = { "Luiza", "Aline", "Samara", "Antonio", "Vinicius", "Vitor" };
 
-		for (int indice = 0; indice < 6; indice++) {
+		for (int indice = 0; indice < pessoas.length; indice++) {
 			System.out.println("Posição : " + indice + " = " + pessoas[indice]);
 		}
 		
@@ -18,14 +19,24 @@ public class Vetores {
 		
 		float[] notas = new float[5];
 		
-		for (int indice = 0; indice < 5; indice ++ ) {
+		/* for (int indice = 0; indice < notas.length; indice ++ ) {
 			System.out.println("Digite um valor para a posição [" + indice + "] = ");
-			notas[indice] = sc.nextInt();
+			notas[indice] = sc.nextFloat();
 		}
 		
-		for (int indice = 0; indice < 5; indice++) {
+		for (int indice = 0; indice < notas.length; indice++) {
 			System.out.println("Posição : " + indice + " = " + notas[indice]);
 		}
+
+		Arrays.sort(notas);
+		System.out.println("-------------------------");
+		
+		 for (int indice = 0; indice < notas.length; indice++) {
+			System.out.println("Posição : " + indice + " = " + notas[indice]);
+			}
+		*/
+		
+		System.out.print("Localize 'Aline' no array : " + Arrays.binarySearch(pessoas, "Vinicius"));
 
 	}
 
