@@ -42,7 +42,7 @@ public class Collections {
 			System.out.println(fruta + " = " + fruta.hashCode());
 		}
 		
-		frutas.contains("Morango"); // retorna: true
+		frutas.contains("Abacate"); // retorna: true
 		frutas.remove("Morango"); // remove o item do set
 		
 		Iterator<String> iFrutas = frutas.iterator();
