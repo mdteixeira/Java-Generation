@@ -1,10 +1,10 @@
 package exercicios2;
 
 import java.util.LinkedList;
-import java.util.Queue;
+import java.util.Stack;
 import java.util.Scanner;
 
-public class Ex1 {
+public class Ex2 {
 
 	static Scanner sc = new Scanner(System.in);
 
@@ -12,7 +12,7 @@ public class Ex1 {
 
 		int continuar = 0;
 
-		Queue<String> fila = new LinkedList<String>();
+		Stack<String> fila = new Stack<String>();
 
 		do {
 
@@ -43,7 +43,7 @@ public class Ex1 {
 					System.out.println("\n*** A fila está vazia! ***");
 				break;
 			case 3:
-				System.out.println("\nO cliente " + fila.poll() + " foi chamado!");
+				System.out.println("\nO cliente " + fila.pop() + " foi chamado!");
 				break;
 			case 0:
 				System.out.println("\nPrograma finalizado!");
