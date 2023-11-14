@@ -1,6 +1,5 @@
 package exercicios;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class Exe_01 {
